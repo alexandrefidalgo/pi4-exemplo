@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Aula09">
         <activity
-            android:name=".toolbarmenu.ToolbarMenuActivity"
+            android:name=".activities.ToolbarMenuActivity"
             android:label="M Menus">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,7 +19,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".tabs.TabActivity"
+            android:name=".activities.TabActivity"
             android:label="M Abas">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -28,7 +28,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".nv.NavigationViewActivity"
+            android:name=".activities.NavigationViewActivity"
             android:label="M NV">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -37,7 +37,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".bottomnavigation.BottomNavigationActivity"
+            android:name=".activities.BottomNavigationActivity"
             android:label="M BN">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

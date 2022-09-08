@@ -1,4 +1,4 @@
-package br.senac.pi.tabs
+package br.senac.pi.activities
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
@@ -14,10 +14,13 @@ class TabActivity : AppCompatActivity() {
         binding = ActivityTabBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        //Cria uma instancia do adapter de páginas
         val adapter = TabPageAdapter(this)
 
+        //Associa o adaptador ao viewPager
         binding.viewPager.adapter = adapter
 
+        //Trata os ícones ou texto das abas, para cada posição
         TabLayoutMediator(binding.tabLayout, binding.viewPager) { aba, posicao ->
             when(posicao) {
                 1 -> aba.icon = getDrawable(R.drawable.person)

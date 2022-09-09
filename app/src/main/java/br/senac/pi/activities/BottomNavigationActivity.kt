@@ -7,6 +7,7 @@ import br.senac.pi.databinding.ActivityBottomNavigationBinding
 import br.senac.pi.fragments.AlbumsFragment
 import br.senac.pi.fragments.ArtistsFragment
 import br.senac.pi.fragments.RecentsFragment
+import br.senac.pi.fragments.SettingsFragment
 
 class BottomNavigationActivity : AppCompatActivity() {
 
@@ -38,11 +39,18 @@ class BottomNavigationActivity : AppCompatActivity() {
                     supportFragmentManager.beginTransaction().replace(R.id.container, frag).commit()
                 }
                 //Se clicou em outra opção
-                else -> {
+                R.id.recentes -> {
                     //Cria uma nova instância do fragmento de recentes
                     val frag = RecentsFragment()
                     //Faz o gestor de fragmentos trocar o fragmento atualmente em exibição
                     //pelo fragmento de recentes
+                    supportFragmentManager.beginTransaction().replace(R.id.container, frag).commit()
+                }
+                R.id.config -> {
+                    //Cria uma nova instância do fragmento de configurações
+                    val frag = SettingsFragment()
+                    //Faz o gestor de fragmentos trocar o fragmento atualmente em exibição
+                    //pelo fragmento de configurações
                     supportFragmentManager.beginTransaction().replace(R.id.container, frag).commit()
                 }
             }

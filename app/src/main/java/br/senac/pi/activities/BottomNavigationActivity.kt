@@ -53,6 +53,14 @@ class BottomNavigationActivity : AppCompatActivity() {
                     //pelo fragmento de configurações
                     supportFragmentManager.beginTransaction().replace(R.id.container, frag).commit()
                 }
+                R.id.produtos -> {
+                    //Cria uma nova instância do fragmento de configurações
+                    val frag = SettingsFragment()
+                    //Faz o gestor de fragmentos trocar o fragmento atualmente em exibição
+                    //pelo fragmento de configurações
+                    supportFragmentManager.beginTransaction().replace(R.id.container, frag).commit()
+                }
+
             }
 
             true

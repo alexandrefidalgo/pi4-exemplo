@@ -23,5 +23,8 @@
         android:icon="@drawable/settings"
         android:title="Configurações"
         app:showAsAction="always" />
+    <item
+        android:id="@+id/produtos"
+        android:title="Lista Produtos" />
 
 </menu>

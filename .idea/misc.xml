@@ -8,6 +8,17 @@
         <entry key="..\:/Users/alexandre.fidalgo/Desktop/pi4-exemplo/app/src/main/res/menu/bottomnavmenu.xml" value="0.2" />
         <entry key="..\:/Users/alexandre.fidalgo/Desktop/pi4-exemplo/app/src/main/res/menu/nvmenu.xml" value="0.2" />
         <entry key="..\:/Users/alexandre.fidalgo/Desktop/pi4-exemplo/app/src/main/res/menu/toolbarmenu.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/activity_bottom_navigation.xml" value="0.5911458333333334" />
+        <entry key="app/src/main/res/layout/activity_nv.xml" value="0.5911458333333334" />
+        <entry key="app/src/main/res/layout/activity_principal.xml" value="0.2874873353596758" />
+        <entry key="app/src/main/res/layout/activity_secundaria.xml" value="0.2874873353596758" />
+        <entry key="app/src/main/res/layout/activity_tab.xml" value="0.5911458333333334" />
+        <entry key="app/src/main/res/layout/activity_toolbar_menu.xml" value="0.2874873353596758" />
+        <entry key="app/src/main/res/layout/fragment_lista_produtos.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/item_lista_produto.xml" value="0.2874873353596758" />
+        <entry key="app/src/main/res/menu/bottomnavmenu.xml" value="0.5" />
+        <entry key="app/src/main/res/menu/nvmenu.xml" value="0.5911458333333334" />
+        <entry key="app/src/main/res/menu/toolbarmenu.xml" value="0.5911458333333334" />
       </map>
     </option>
   </component>

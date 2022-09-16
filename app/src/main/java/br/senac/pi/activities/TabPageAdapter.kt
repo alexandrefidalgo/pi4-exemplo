@@ -3,10 +3,7 @@ package br.senac.pi.activities
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
 import androidx.viewpager2.adapter.FragmentStateAdapter
-import br.senac.pi.fragments.AlbumsFragment
-import br.senac.pi.fragments.ArtistsFragment
-import br.senac.pi.fragments.RecentsFragment
-import br.senac.pi.fragments.SettingsFragment
+import br.senac.pi.fragments.*
 
 
 //Adaptador chamado para montagem das abas
@@ -23,7 +20,8 @@ class TabPageAdapter(activity: FragmentActivity) : FragmentStateAdapter(activity
             0 -> RecentsFragment()
             1 -> ArtistsFragment()
             2 -> AlbumsFragment()
-            else -> SettingsFragment()
+            3 -> SettingsFragment()
+            else -> ListaProdutosFragment()
         }
     }
 
